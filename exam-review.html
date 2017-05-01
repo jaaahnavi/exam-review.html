@@ -1,6 +1,26 @@
 <!doctype html>
 <html>
 <head>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+  <script>
+  function addLine()
+  {
+    $('div').addClass('border');
+  }
+  function removeLine()
+  {
+    $('div').removeClass('border');
+  }
+    function getHeadline()
+  {
+    $('h1').text();
+  }
+  </script>
+<style>
+  .border{
+    border-width: thick;
+  }
+</style>
   <link rel="stylesheet" href="review.css" type="text/css"/>
   <title>Jahnavi Muppaneni</title>
 </head>
