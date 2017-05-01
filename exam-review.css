@@ -2,45 +2,55 @@
 font-size: 45px;
 font-weight: bold;
 }
-.subhed {
-  text-transform: uppercase;
-  border-bottom: 2px solid black;
-}
+
 .h2 {
   border-bottom: 2px solid black;
 }
+
 .h4 {
   padding: 8px 2px 8px 2px;
+  border-bottom: 2px solid black;
+  text-transform: uppercase;
 }
+
 #id {
   padding: 8px 2px 8px 2px;
 }
+
 .container {
   max-width: 800px;
   overflow: auto;
   margin: 0 auto;
-  background: dark gray;
+  background-color: white;
   padding: 6px 4px 6px 4px;
 }
+
+.body
+{
+  background-color: dark gray;
+}
+
 .left-column{
   float: left;
   overflow: auto;
   box-sizing: border-box;
   width: 70%;
   padding: 6px 4px 6px 4px;
+  background-color: #f7f7f7;
 }
+
 .right-column{
   float: left;
   box-sizing: border-box;
   overflow: auto;
-  background-color: #f7f7f7;
   width: 30%;
   padding: 6px 4px 6px 4px;
 }
-}
+
 * {
   box-sizing: border-box;
 }
+
 @media(min-width: 600px){
   .container {
     max-width: 600px;
@@ -50,4 +60,5 @@ font-weight: bold;
     max-width: 600px;
     margin: 0 auto;
     padding-right: 50px;
+  }
 }
